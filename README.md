@@ -1,7 +1,7 @@
-# Quote Dice Web App (From Idea to Delivery and Operations Learning Project)
+# Loaded Dice Quote Web App (From Idea to Delivery and Operations Learning Project)
 
 ## Project Overview
-The Quote Dice Web App is an interactive application that displays inspirational or meaningful quotes on its landing page. The app combines modern web development technologies, AI, machine learning, and web crawling to provide a unique and dynamic user experience.
+The Loaded Dice Quote Web App is an interactive application that displays inspirational or meaningful quotes on its landing page. The app combines modern web development technologies, AI, machine learning, and web crawling to provide a unique and dynamic user experience.
 
 ### Core Features
 1. **Interactive Dice:**
@@ -56,8 +56,8 @@ The Quote Dice Web App is an interactive application that displays inspirational
 ### Steps
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/quote-dice-webapp.git
-   cd quote-dice-webapp
+   git clone https://github.com/OluOrija/LoadedDiceQuotesApp.git
+   cd LoadedDiceQuotesApp
    ```
 2. **Frontend Setup:**
    ```bash
