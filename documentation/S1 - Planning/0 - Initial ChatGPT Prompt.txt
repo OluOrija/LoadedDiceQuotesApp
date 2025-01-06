@@ -1,0 +1,20 @@
+Stage 1 - Planning
+
+Objective: I want to create a webapp that will display a quote on the landing page.
+- Feature 1 of this app will be the presence of a dice on the landing page.
+- OnClick of the dice a new quote will be displayed to the user
+- Feature 2 will be a text input box with a character limit below the dice
+- If text is present in the input box the site will display a quote based on the text Onclick of the dice
+- The content displayed with be powered by AI, Machine learning and Web crawling to populate the data set of possible quotes to enrich the variety of results and learning from every result generated
+
+Initial Scope:
+- We will approach the project through using agile methodology.
+- Plan is to deliver the project using Microsoft Azure 
+- The development will be performed using a windows 11 home edition laptop
+- The core application will be developed around sql server and or mongodb for the database, dotnet core api for the API layer and React for the frontend.
+- Azure AI services can be used where possible 
+- The SDLC should follow the stages:  Planning, Requirements & Analysis, Design & Architecture, Implementation, Testing, Deployment, Operations & Maintenance.
+
+- Output an initial project plan
+- Suggest a free project planning tool to use to manage the project
+ 
