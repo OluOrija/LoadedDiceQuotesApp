@@ -12,6 +12,7 @@
   - **Backend**: .NET Core API
   - **Database**: SQL Server / MongoDB
   - **Cloud Services**: Microsoft Azure (including Azure AI services)
+  - **Containerisation:** Docker, Kubernetes
 
 #### **2. Key Milestones**
 1. **Project Initialization**: Define goals, set up environments, and gather resources.
@@ -31,6 +32,7 @@
 #### **4. Tools**
 - **Version Control**: Git (GitHub or Azure Repos)
 - **Development**: Visual Studio for .NET Core, Visual Studio Code for React.
+- **Containerisation**: Docker desktop, Kubernetes
 - **Database Management**: SQL Server Management Studio / MongoDB Compass.
 - **AI Models**: Azure OpenAI service.
 - **Project Management**: Azure DevOps Boards (Free tier options).

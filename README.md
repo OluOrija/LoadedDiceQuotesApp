@@ -19,6 +19,7 @@ The Quote Dice Web App is an interactive application that displays inspirational
 - **Backend:** .NET Core API
 - **Database:** SQL Server and/or MongoDB
 - **Cloud Services:** Microsoft Azure (including Azure AI services)
+- **Containerisation:** Docker, Kubernetes
 
 ### Development Methodology
 - **Approach:** Agile methodology
@@ -50,6 +51,7 @@ The Quote Dice Web App is an interactive application that displays inspirational
 - SQL Server or MongoDB (database)
 - Microsoft Azure account (for deployment)
 - Visual Studio Code / Visual Studio (development environment)
+- Docker Desktop
 
 ### Steps
 1. **Clone the Repository:**
