@@ -1,9 +1,7 @@
-Prerequisite
-- Github subscription
-- Github repository
-
-
 ### **Initialize Local Git Repository and Map to Remote**
+Prerequisite
+- Github subscription (Credentials in 1Password)
+- Github remote repository
 
 #### **Step 1: Open Terminal in the Project Folder**
 Navigate to the folder containing your project:
