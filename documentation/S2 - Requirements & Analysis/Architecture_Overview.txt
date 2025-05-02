@@ -1,0 +1,38 @@
+### 🧠 **Architecture Overview**
+
+**Frontend** (React):
+
+* Quote display component
+* Dice button component
+* Text input with character limit
+* API calls to backend on dice click
+
+**Backend API** (.NET Core):
+
+* Endpoint to fetch a random quote
+* Endpoint to fetch a quote based on user input
+* Integration with AI/ML module
+* Integration with a quote data service (web crawler or DB)
+
+**AI/ML & Web Crawling Module**:
+
+* AI Service for quote generation and enrichment (Azure OpenAI / Cognitive Services)
+* Web crawler for scraping public domain quotes and metadata
+* Learning component (stores user input/queries and refines future responses)
+
+**Database** (SQL Server or MongoDB):
+
+* Quotes collection
+* User search history (for learning)
+* Metadata tags
+
+**Infrastructure (Azure)**:
+
+* App Services (for hosting API and frontend)
+* Azure Cosmos DB or Azure SQL
+* Azure Functions (optional for crawling/processing)
+* Azure AI Services (OpenAI, Cognitive Search, etc.)
+* Application Insights (monitoring)
+* Azure DevOps Pipelines (CI/CD)
+
+---
