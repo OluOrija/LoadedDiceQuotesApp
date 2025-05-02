@@ -1,55 +1,38 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="AI Quote WebApp Architecture" id="diagram1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        
-        <!-- User -->
-        <mxCell id="2" value="User (Browser)" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="120" width="120" height="60" as="geometry"/>
-        </mxCell>
-
-        <!-- React Frontend -->
-        <mxCell id="3" value="React Frontend (Landing Page with Dice and Input)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="120" width="240" height="80" as="geometry"/>
-        </mxCell>
-
-        <!-- .NET Core API -->
-        <mxCell id="4" value=".NET Core API" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="540" y="120" width="160" height="80" as="geometry"/>
-        </mxCell>
-
-        <!-- AI/ML Module -->
-        <mxCell id="5" value="AI/ML Service (Azure OpenAI)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="760" y="40" width="180" height="60" as="geometry"/>
-        </mxCell>
-
-        <!-- Web Crawler -->
-        <mxCell id="6" value="Web Crawler
-(Quote Source Aggregator)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="760" y="140" width="180" height="60" as="geometry"/>
-        </mxCell>
-
-        <!-- Database -->
-        <mxCell id="7" value="Database (SQL Server / MongoDB)" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="540" y="260" width="180" height="80" as="geometry"/>
-        </mxCell>
-
-        <!-- Azure Services -->
-        <mxCell id="8" value="Azure App Services / Azure DevOps / App Insights" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="240" y="300" width="460" height="60" as="geometry"/>
-        </mxCell>
-
-        <!-- Edges -->
-        <mxCell id="9" style="endArrow=block;html=1;" edge="1" parent="1" source="2" target="3"/>
-        <mxCell id="10" style="endArrow=block;html=1;" edge="1" parent="1" source="3" target="4"/>
-        <mxCell id="11" style="endArrow=block;html=1;" edge="1" parent="1" source="4" target="5"/>
-        <mxCell id="12" style="endArrow=block;html=1;" edge="1" parent="1" source="4" target="6"/>
-        <mxCell id="13" style="endArrow=block;html=1;" edge="1" parent="1" source="4" target="7"/>
-        <mxCell id="14" style="endArrow=block;html=1;" edge="1" parent="1" source="7" target="5"/>
-        <mxCell id="15" style="endArrow=block;html=1;" edge="1" parent="1" source="4" target="8"/>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram name="AI Quote WebApp Architecture" id="diagram1">
+        <mxGraphModel dx="109582" dy="93347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" style="endArrow=block;html=1;" parent="1" source="2" target="3" edge="1"/>
+                <mxCell id="10" style="endArrow=block;html=1;" parent="1" source="3" target="4" edge="1"/>
+                <mxCell id="11" style="endArrow=block;html=1;" parent="1" source="4" target="5" edge="1"/>
+                <mxCell id="12" style="endArrow=block;html=1;" parent="1" source="4" target="6" edge="1"/>
+                <mxCell id="13" style="endArrow=block;html=1;" parent="1" source="4" target="7" edge="1"/>
+                <mxCell id="14" style="endArrow=block;html=1;" parent="1" source="7" target="5" edge="1"/>
+                <mxCell id="15" style="endArrow=block;html=1;" parent="1" source="4" target="8" edge="1"/>
+                <mxCell id="23" value="User (Browser)" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-21010" y="-9880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="React Frontend (Landing Page with Dice and Input)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-20830" y="-9880" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value=".NET Core API" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+                    <mxGeometry x="-20530" y="-9880" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="AI/ML Service (Azure OpenAI)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+                    <mxGeometry x="-20310" y="-9960" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Web Crawler (Quote Source Aggregator)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;" vertex="1" parent="1">
+                    <mxGeometry x="-20310" y="-9860" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Database (SQL Server / MongoDB)" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+                    <mxGeometry x="-20530" y="-9740" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Azure App Services / Azure DevOps / App Insights" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;" vertex="1" parent="1">
+                    <mxGeometry x="-20830" y="-9700" width="460" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
