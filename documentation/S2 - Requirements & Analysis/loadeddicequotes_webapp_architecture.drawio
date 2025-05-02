@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="AI Quote WebApp Architecture" id="diagram1">
-        <mxGraphModel dx="109582" dy="93347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="111236" dy="94516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -30,7 +30,7 @@
                     <mxGeometry x="-20530" y="-9740" width="180" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="Azure App Services / Azure DevOps / App Insights" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;" vertex="1" parent="1">
-                    <mxGeometry x="-20830" y="-9700" width="460" height="60" as="geometry"/>
+                    <mxGeometry x="-20820" y="-9590" width="460" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
