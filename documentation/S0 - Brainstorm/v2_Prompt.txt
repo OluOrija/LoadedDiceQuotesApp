@@ -15,8 +15,10 @@ Product Objective(s):
 - OnClick of the dice a new quote will be displayed to the user
 
 Business Objective(s)
-- Create a comprehensive framework for taking an idea from inception to delivery.
+- Create a comprehensive framework for taking an idea from inception to delivery that follows the followwing stages of the software development lifecycle: Planning, Requirements & Analysis, Design & Architecture, Implementation, Testing, Deployment, Operations & Maintenance.
 
 Scope:
 
-Task: Analyse the context and generate a comprehensive project plan.
+Task: Analyse the context and generate a comprehensive project plan detailing how to achieve a prototype, and elicit the functional requirements and non-functional requirements of the product.
+
+Output: A comprehensive project plan.
