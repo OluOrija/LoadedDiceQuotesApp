@@ -1,5 +1,5 @@
 Planning 
-Stage 1 
+Stage 1 - Going from Prompt to Project
 Objective(s) 
 - Setup platforms for project management and collaboration
 - Facilitate the Requirements and Analysis stage
