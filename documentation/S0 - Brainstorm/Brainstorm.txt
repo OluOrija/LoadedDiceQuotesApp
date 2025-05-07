@@ -1,4 +1,6 @@
-Stage 1 - Planning
+Brainstorming
+
+Stage 1 - Initial prompt
 
 Objective: I want to create a webapp that will display a quote on the landing page.
 - Feature 1 of this app will be the presence of a dice on the landing page.

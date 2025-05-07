@@ -1,0 +1,7 @@
+Planning 
+Stage 1 
+Objective(s) 
+- Setup platforms for project management and collaboration
+- Facilitate the Requirements and Analysis stage
+Output(s) 
+- Documentation of services and resources provisioned to facilitate project management and collaboration
