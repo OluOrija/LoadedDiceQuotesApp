@@ -1,6 +1,6 @@
 
 
-### Initial Project Plan
+### Initial Project Plan & Definition
 
 #### **1. Planning**
 - **Objectives**: Create a dynamic web app that displays quotes interactively.
