@@ -16,12 +16,13 @@
 
 #### **2. Key Milestones**
 1. **Project Initialization**: Define goals, set up environments, and gather resources.
-2. **Requirement Gathering**: Detail functional and non-functional requirements.
-3. **Prototype Development**: Implement dice interaction and basic quote display.
-4. **AI Integration**: Develop and integrate AI for text-based quote generation.
-5. **Testing Phase**: Perform unit, integration, and system testing.
-6. **Deployment**: Deploy on Azure.
-7. **User Feedback & Iteration**: Incorporate user insights for improvement.
+2. **Prototyping**: Create a UI/UX Protoype
+3. **Requirement Gathering**: Detail functional and non-functional requirements.
+4. **Prototype Development**: Implement dice interaction and basic quote display.
+5. **AI Integration**: Develop and integrate AI for text-based quote generation.
+6. **Testing Phase**: Perform unit, integration, and system testing.
+7. **Deployment**: Deploy on Azure.
+8. **User Feedback & Iteration**: Incorporate user insights for improvement.
 
 #### **3. Deliverables**
 - Functional web app with the dice interaction feature.
@@ -45,6 +46,7 @@
   - **Mitigation**: Optimize queries and implement caching strategies.
 
 #### **6. Next Steps**
+- Research and create a UI/UX prototype using wireframes
 - Define detailed requirements for Feature 1 and Feature 2.
 - Research and validate datasets for quotes.
 - Set up Azure resources and development environment.

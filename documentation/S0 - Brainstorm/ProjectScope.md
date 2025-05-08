@@ -1,5 +1,3 @@
----
-
 ### **Project Scope: Loaded Dice App**
 
 #### **Project Title:**
@@ -36,8 +34,11 @@ This project aims to develop a mobile/web application that displays motivational
 * Backend API (Node.js/.NET Core) to serve quotes, optionally with AI-enhanced quote personalization.
 * Documentation for:
 
+  * Three-Tier Architecture explained
   * Software Development Lifecycle (SDLC) followed
-  * API usage and maintenance
+  * UI/UX development Framework: Empathize, Define, Ideate, Prototype, Test
+  * API development framework research
+  * Data Tier development framework research
   * Testing strategy and coverage
 * Deployment on cloud platform (Azure, AWS, or Firebase).
 * Basic analytics dashboard (optional phase) for tracking dice rolls and quote views.
@@ -46,11 +47,11 @@ This project aims to develop a mobile/web application that displays motivational
 
 ### **4. Three-Tier Architecture**
 
-| Stage                        | Activities                                                                |
-| ---------------------------- | ------------------------------------------------------------------------- |
-| **Presentation Tier**                 | Decode the UX.                 |
-| **Application Logic Tier**  | Decode the APIs - Data modelling, Data manipulation Data aggregation.  |
-| **Data Tier**    | Data validation and Storage.          |
+| Stage                      | Activities                                                             |
+| -------------------------- | ---------------------------------------------------------------------- |
+| **Presentation Tier**      | Decode the UX. Display animated dice, manage themes, render quotes.    |
+| **Application Logic Tier** | Decode the APIs - Data modelling, Data manipulation, Data aggregation. |
+| **Data Tier**              | Data validation and storage (static or API-served quotes).             |
 
 ---
 
@@ -67,7 +68,44 @@ This project aims to develop a mobile/web application that displays motivational
 | **Operations & Maintenance** | Monitor uptime, collect feedback, push updates and bug fixes.             |
 
 ---
-### **6. Out of Scope (for MVP)**
+
+### **6. UI/UX Development Framework: Design Thinking Process**
+
+| Phase         | Activities                                                                    |
+| ------------- | ----------------------------------------------------------------------------- |
+| **Empathize** | Understand user needs, motivations, and pain points through persona creation. |
+| **Define**    | Translate insights into problem statements and feature requirements.          |
+| **Ideate**    | Brainstorm UI/UX concepts, layout options, and user flow improvements.        |
+| **Prototype** | Build interactive wireframes/mockups using tools like Figma or Adobe XD.      |
+| **Test**      | Conduct usability testing to refine features and interactions.                |
+
+---
+
+### **7. API Development Framework**
+
+| Stage             | Activities                                                              |
+| ----------------- | ----------------------------------------------------------------------- |
+| **Design**        | Define RESTful endpoints for quote retrieval (GET /quote, GET /quotes). |
+| **Modeling**      | Specify schema for Quote objects (e.g., text, author, category).        |
+| **Security**      | Add rate-limiting or API key-based access (optional for MVP).           |
+| **Integration**   | Connect to external/public quote APIs or load from static dataset.      |
+| **Documentation** | Use OpenAPI/Swagger to document endpoints and usage scenarios.          |
+
+---
+
+### **8. Data Tier Development Framework**
+
+| Component        | Activities                                                                      |
+| ---------------- | ------------------------------------------------------------------------------- |
+| **Data Sources** | Use static JSON files or public quote APIs (e.g., ZenQuotes, Quotable) for MVP. |
+| **Validation**   | Ensure quote content is well-formed, non-empty, and properly encoded.           |
+| **Storage**      | Use cloud storage (Firebase Firestore, Azure Blob, or local JSON) for quotes.   |
+| **Scalability**  | Prepare data access layer for easy switch to dynamic DBs like MongoDB or SQL.   |
+| **Caching**      | Optional: Implement basic caching for frequently accessed quotes.               |
+
+---
+
+### **9. Out of Scope (for MVP)**
 
 * User authentication or user-specific quote history
 * Social sharing features
@@ -76,7 +114,7 @@ This project aims to develop a mobile/web application that displays motivational
 
 ---
 
-### **7. Assumptions**
+### **10. Assumptions**
 
 * Motivational quotes will be sourced from a public API or static file for MVP.
 * Dice interaction will be animated for better UX.
