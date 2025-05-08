@@ -58,7 +58,16 @@ This project aims to develop a mobile/web application that displays motivational
 
 ---
 
-### **5. Out of Scope (for MVP)**
+### **5. Three-Tier Architecture**
+
+| Stage                        | Activities                                                                |
+| ---------------------------- | ------------------------------------------------------------------------- |
+| **Presentation Tier**                 | Decode the UX.                 |
+| **Application Logic Tier**  | Application Tier. |
+| **Data Tier**    | Storage, Database and Data manipulation.          |
+
+---
+### **6. Out of Scope (for MVP)**
 
 * User authentication or user-specific quote history
 * Social sharing features
@@ -67,7 +76,7 @@ This project aims to develop a mobile/web application that displays motivational
 
 ---
 
-### **6. Assumptions**
+### **7. Assumptions**
 
 * Motivational quotes will be sourced from a public API or static file for MVP.
 * Dice interaction will be animated for better UX.
