@@ -49,7 +49,7 @@ This project aims to develop a mobile/web application that displays motivational
 | Stage                        | Activities                                                                |
 | ---------------------------- | ------------------------------------------------------------------------- |
 | **Presentation Tier**                 | Decode the UX.                 |
-| **Application Logic Tier**  | Data modelling, Data manipulation Data aggregation. |
+| **Application Logic Tier**  | Decode the APIs - Data modelling, Data manipulation Data aggregation.  |
 | **Data Tier**    | Data validation and Storage.          |
 
 ---
