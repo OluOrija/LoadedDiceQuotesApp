@@ -44,7 +44,17 @@ This project aims to develop a mobile/web application that displays motivational
 
 ---
 
-### **4. Software Development Lifecycle (SDLC) Stages Covered**
+### **4. Three-Tier Architecture**
+
+| Stage                        | Activities                                                                |
+| ---------------------------- | ------------------------------------------------------------------------- |
+| **Presentation Tier**                 | Decode the UX.                 |
+| **Application Logic Tier**  | Data modelling, Data manipulation Data aggregation. |
+| **Data Tier**    | Data validation and Storage.          |
+
+---
+
+### **5. Software Development Lifecycle (SDLC) Stages Covered**
 
 | Stage                        | Activities                                                                |
 | ---------------------------- | ------------------------------------------------------------------------- |
@@ -55,16 +65,6 @@ This project aims to develop a mobile/web application that displays motivational
 | **Testing**                  | Unit tests, integration tests, and user acceptance testing (UAT).         |
 | **Deployment**               | Launch app on selected platform(s), configure CI/CD pipeline.             |
 | **Operations & Maintenance** | Monitor uptime, collect feedback, push updates and bug fixes.             |
-
----
-
-### **5. Three-Tier Architecture**
-
-| Stage                        | Activities                                                                |
-| ---------------------------- | ------------------------------------------------------------------------- |
-| **Presentation Tier**                 | Decode the UX.                 |
-| **Application Logic Tier**  | Application Tier. |
-| **Data Tier**    | Storage, Database and Data manipulation.          |
 
 ---
 ### **6. Out of Scope (for MVP)**
