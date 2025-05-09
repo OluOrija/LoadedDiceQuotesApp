@@ -118,7 +118,6 @@ High fidelity (hi-fi) prototypes
 ------------------------------------------------------------------------------------------------------------
 Phase 5 - Test solutions
 
-
 Goal
 - In the test phase, the goal is to refine the prototype as designers gain insight into whether or not it solves the defined problem. Once the testing is done, the prototype will be finalized, and the prototype will move on to the developers, who will turn the design into the actual product.
 
